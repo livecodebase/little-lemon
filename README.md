@@ -15,9 +15,15 @@ Little Lemon is a family-owned Mediterranean restaurant in Chicago. This web app
 
 ### Homepage
 - Hero section with call-to-action
-- Restaurant information and description
+- Weekly specials showcase (3 menu items)
+- Customer testimonials section
 - Mobile-responsive navigation
 - Semantic HTML structure
+
+### About Page
+- Dedicated page for restaurant information
+- Detailed restaurant story and history
+- Chef information and images
 
 ### Booking System
 - Date picker with validation (no past dates)
@@ -104,10 +110,13 @@ lemon-app/
 │   │   ├── Header.jsx      # Navigation header
 │   │   ├── Hero.jsx        # Hero section
 │   │   ├── About.jsx       # About section
+│   │   ├── Specials.jsx    # Weekly specials menu
+│   │   ├── Testimonials.jsx # Customer reviews
 │   │   ├── Footer.jsx      # Footer with contact info
 │   │   └── BookingForm.jsx # Booking form with validation
 │   ├── pages/              # Page components
 │   │   ├── HomePage.jsx    # Main landing page
+│   │   ├── AboutPage.jsx   # About restaurant page
 │   │   ├── BookingPage.jsx # Reservation page
 │   │   └── ConfirmationPage.jsx # Booking confirmation
 │   ├── tests/              # Unit tests
