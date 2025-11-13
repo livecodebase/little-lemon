@@ -1,15 +1,17 @@
 import Hero from '../components/Hero';
-import About from '../components/About';
+import Specials from '../components/Specials';
+import Testimonials from '../components/Testimonials';
 
 /**
  * Home page component
- * Displays hero section and about information
+ * Displays hero section with call-to-action, specials, and testimonials
  */
 function HomePage() {
   return (
     <main>
       <Hero />
-      <About />
+      <Specials />
+      <Testimonials />
     </main>
   );
 }
